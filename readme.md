@@ -1,16 +1,6 @@
-=== Plugin Name ===
-Contributors: SdeWijs
-Donate link: https://www.mollie.com/pay/link/1006571/D2A4A1C0/2.5/Koffie%20voor%20de%20Grinthorst/a60be34ef573cefa17c1a00e90002f526b723683
-Tags: images, zoomify, shortcode
-Requires at least: 3.0.1
-Tested up to: 4.6.1
-Stable tag: trunk
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-
 This plugin offers an easy way to embed zoomify .zif files in your WordPress website.
 
-== Description ==
+### Description
 
 This Zoomify plugin for WordPress allows you to upload .zif files to your media directory. You can then create the Zoomify imagebox
 with toolbar by using the shortcode [zoomify file="{fileUrl}" skin={Default/Dark/Light}], where {fileUrl} is the url/permalink to the zif-file.
@@ -23,7 +13,7 @@ I am not connected to Zoomify in any way, I coded this plugin for personal use a
 
 For now the plugin only supports one Zoomify image per page or post, but support for more images will be added in the future.
 
-== Installation ==
+### Installation
 
 1. Upload the plugin files to the `/wp-content/plugins/plugin-name` directory, or install the plugin through the WordPress plugins screen directly.
 2. Activate the plugin through the 'Plugins' screen in WordPress
@@ -31,26 +21,23 @@ For now the plugin only supports one Zoomify image per page or post, but support
 4. Use the shortcode [zoomify file={fileUrl} skin="Default"] shortcode to create the Zoomify box on any post or page.
 
 
-== Frequently Asked Questions ==
+### Frequently Asked Questions
 
-= Can I have more then one Zoomify image on a page or post? =
+Can I have more then one Zoomify image on a page or post?
 
 At the moment this plugin only supports one Zoomify image per page or post.
 
-= Can I add more skins to the plugin? =
+Can I add more skins to the plugin?
 
 You can by uploading your custom skins to [your site url]/wp-content/plugins/gh-zoomify/assets/Skins] and use the foldername in the
 shortcode. Please use the Zoomify style to name the folder. First letter uppercase and no spaces. For example 'Mycustomskin'.
 
-= Can I apply extra styling to the Zoomify container block? =
+Can I apply extra styling to the Zoomify container block?
 
 The styling of the containerblock is kept as clean as possible, so you can style away by selecting #zoomifyContainer in your own CSS file
 or your theme's custom CSS section.
 
-== Screenshots ==
-
-
-== Changelog ==
+### Changelog
 
 = 1.0 =
 * First stable release
